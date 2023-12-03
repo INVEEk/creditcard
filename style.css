@@ -1,0 +1,45 @@
+.credit-card {
+    height: 272px;
+    width: 377px;
+    background-color: blue;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.credit-card-front .number {
+    display: flex;
+    font-size: 35px;
+    margin-left: 30px;
+    padding-top: 120px;
+}
+
+.credit-card-front .information-wrapper {
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-card-front .name {
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+p {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+.credit-card-back {
+    padding-top: 30px;
+}
+
+.credit-card-back .magnetic-strip {
+    background-color: black;
+    height: 45px;
+    width: 100%;
+}
