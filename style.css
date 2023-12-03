@@ -21,6 +21,7 @@
     height: 50px;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .credit-card-front .name {
@@ -42,4 +43,14 @@ p {
     background-color: black;
     height: 45px;
     width: 100%;
+    margin-bottom: 15px;
 }
+
+.credit-card-back .information-wrapper {
+    display: flex;
+    background-color: white;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+}
+
