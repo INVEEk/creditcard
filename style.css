@@ -1,5 +1,5 @@
 .credit-card {
-    height: 272px;
+    height: 250px;
     width: 377px;
     background-color: blue;
     border-radius: 5%;
@@ -10,7 +10,7 @@
     display: flex;
     font-size: 35px;
     margin-left: 30px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .credit-card-front .information-wrapper {
@@ -21,7 +21,6 @@
     height: 50px;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
 
 .credit-card-front .name {
@@ -31,8 +30,6 @@
 
 p {
     display: inline;
-    width: 50px;
-    height: 50px;
 }
 
 .credit-card-back {
@@ -48,9 +45,21 @@ p {
 
 .credit-card-back .information-wrapper {
     display: flex;
-    background-color: white;
-    margin-left: 30px;
-    width: 150px;
-    height: 40px;
+    margin-left: 15px;
+    width: 180px;
+    height: 35px;
+    background-color: darkgrey;
 }
 
+.information-wrapper .name {
+    display: flex;
+    font-family: "Brush Script MT";
+    font-size: 26px;
+    margin: 0 0 0 10px;
+}
+
+p.number {
+    margin: 0;
+    padding: 0 0 0 48px;
+    font-style: italic;
+}
