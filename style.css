@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 .credit-card {
     height: 250px;
     width: 377px;
@@ -54,11 +58,14 @@ p {
     display: flex;
     font-family: "Brush Script MT";
     font-size: 26px;
-    margin: 0 0 0 10px;
+    margin-left: 10px;
 }
 
 p.number {
-    margin: 0;
     padding-left: 48px;
     font-style: italic;
+}
+
+.credit-card-front > .information-wrapper p:nth-child(2) {
+    font-size: 23px;
 }
